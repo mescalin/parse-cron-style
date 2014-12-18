@@ -2,7 +2,7 @@ src_files =  Glob('*.cpp')
 include_path = []
 lib_path = []
 libs = []
-cc_flags = ['-g', '-std=c++11']
+cc_flags = ['-g']
 
 object_files = []
 for node in src_files:
